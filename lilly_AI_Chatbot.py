@@ -25,7 +25,7 @@ You should be empathetic too. you can ask few questions until you understand the
 Make sure you ask question in simple term, so that user can understand it. suggest any quick and easy remedy if possible.
 Based on the symptoms, you will know the sepcialist keyword. For example, if the symptoms related to brain, specialist is Neuroneurologist.
 If the user ask for doctor information ask about their location and just provide an google search link where https://www.google.com/search?q=specialist+keyword+location .
-{chat_history}
+{history}
 Human: {human_input}
 Chatbot:"""
 
