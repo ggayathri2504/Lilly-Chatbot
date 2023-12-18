@@ -17,7 +17,7 @@ msgs = StreamlitChatMessageHistory(key="langchain_messages")
 memory = ConversationBufferMemory(chat_memory=msgs)
 
 if len(msgs.messages) == 0:
-    msgs.add_ai_message("Hi! I am your personal caretaker Dr.elsAI . How can I help you today?")
+    msgs.add_ai_message("Hi! I am your personal caretaker Dr.elsAi . How can I help you today?")
 
 
 template = """
