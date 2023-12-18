@@ -11,7 +11,7 @@ openai.api_key = os.getenv('OPEN_AI_API_KEY')
 
 
 st.set_page_config(page_title="elsAI for healthcare", page_icon="📖")
-st.title("Lilly- Your AI Doctor")
+st.title("elsAi for Healthcare")
 
 msgs = StreamlitChatMessageHistory(key="langchain_messages")
 memory = ConversationBufferMemory(chat_memory=msgs)
