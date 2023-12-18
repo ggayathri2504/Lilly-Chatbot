@@ -10,14 +10,14 @@ import os
 openai.api_key = os.getenv('OPEN_AI_API_KEY')
 
 
-st.set_page_config(page_title="Lilly-AI Chatbot", page_icon="📖")
+st.set_page_config(page_title="elsAI for healthcare", page_icon="📖")
 st.title("Lilly- Your AI Doctor")
 
 msgs = StreamlitChatMessageHistory(key="langchain_messages")
 memory = ConversationBufferMemory(chat_memory=msgs)
 
 if len(msgs.messages) == 0:
-    msgs.add_ai_message("Hi! I am your personal caretaker Dr.Lilly. How can I help you today?")
+    msgs.add_ai_message("Hi! I am your personal caretaker Dr.elsAI . How can I help you today?")
 
 
 template = """
